@@ -11,7 +11,7 @@ function App() {
   const [data, setData] = useState<CpuResponse | null>(null);
 
   useEffect(() => {
-    fetch("http://localhost:8000/")
+    fetch("/api/")
       .then((response) => response.json())
       .then((data: CpuResponse) => {
         setData(data);
