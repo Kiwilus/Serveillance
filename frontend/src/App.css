@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: whitesmoke;
+  color: black;
+}
+
+.app {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.cpu-section {
+  width: 300px;
+  padding: 20px;
+  border-radius: 6px;
+  background: grey;
+}
+
+.cpu-section h2 {
+  margin-top: 0;
+}
+
+.cpu-section p {
+  color: black;
+}

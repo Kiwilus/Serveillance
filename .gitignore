@@ -1,0 +1,6 @@
+src/.venv
+src/__pycache__
+frontend/package-lock.json
+frontend/node_modules
+locker
+TODO.md
