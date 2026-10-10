@@ -16,4 +16,8 @@ app.add_middleware(
 
 @app.get("/")
 def index():
-    return calls.cpu()
+    return {
+        "cpu": calls.cpu(),
+        "memory": calls.memory(),
+        "disks" : calls.disks(),
+    }
